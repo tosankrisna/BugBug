@@ -12,11 +12,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-10 px-5 sm:px-10 xl:px-24 z-10">
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 w-full justify-between h-50 py-2 2xl:px-10 xl:py-7 px-5 lg:px-5 lg:py-10 lg:gap-5 bg-green rounded-2xl">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 w-full justify-between h-50 py-2 2xl:px-10 xl:py-7 px-5 lg:px-5 lg:py-10 lg:gap-5 bg-green rounded-2xl">
         <div className="flex align-middle items-center xl:col-span-2">
           <img src={bugBugLogo} alt="Bug Bug Logo" className="w-36 xl:w-52" />
         </div>
-        <ul className="hidden lg:col-span-5 xl:col-span-4 justify-items-center lg:grid lg:grid-cols-6 xl:gap-4 2xl:gap-0 align-middle items-center">
+        <ul className="hidden lg:col-span-5 xl:col-span-6 justify-items-center lg:grid lg:grid-cols-6 xl:gap-4 2xl:gap-0 align-middle items-center">
           <li className="cursor-pointer uppercase text-primary text-xs 2xl:text-sm tracking-widest">
             About Us
           </li>
